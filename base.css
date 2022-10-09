@@ -1,0 +1,30 @@
+  
+  #text1 {
+    background-color: lightblue;
+  }
+  #visual {
+    background-image: url("./assets/IMG_8986.jpeg");
+    background-repeat: no-repeat;
+    height: 100vw;
+  }
+
+  @media (min-width: 600px) {
+    #main {
+      display: flex;
+    }
+    #text1 {
+      flex-grow: 1;
+      background-size: 50vw;
+    }
+    #visual {
+      flex-grow: 1;
+      background-size: 50vw;
+    }
+  }
+
+  header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 10000;
+  }
